@@ -55,3 +55,7 @@ QNLI                    |104743                   |2718             |2718|
 RTE                     |2490                     |2070               |2088  |                   
 SciTail                 |23596                    |2718               |2736  | 
 ----
+
+### License
+The authors bear all responsibility in case of violation of rights, and confirm that this dataset is
+open-sourced under the MIT license.

@@ -1,8 +1,9 @@
 # ASR-GLUE
+---------
+##### Introduction
+ASR-robust General Language Understanding Evaluation (ASR-GLUE) is constructed on the basis of GLUE for the purpose of comprehensively investigate how ASR error affect NLU capability. 
 
-ASR-robust General Language Understanding Evaluation (ASR-GLUE) is constructed on the basis of GLUE, a popular NLU evaluation benchmark consists of diverse NLU tasks for the purpose of comprehensively investigate how ASR error affect NLU capability. 
 It contains a new collection of 6 different NLU tasks for evaluating the performance of models under ASR error across 3 different levels of background noise and 6 speakers with various voice characteristics.
-----
 * **SST-2** The Stanford Sentiment Treebank is a single-input understanding task for sentiment classification. The task is to predict the sentiment of a given sentence in movie reviews domain. Accuracy (ACC) of the binary classification (positive or negative) is used as the metric.
 * **STS-B** The Semantic Textual Similarity Benchmark consists of sentence pairs drawn from news headlines, video and image captions, and natural language inference data. The task is to predict sentence similarity scores which ranges from 1 to 5. We evaluate using Pearson and Spearman correlation coefficients.
 * **QQP**   The Quora Question Pairs dataset consists of question pairs in social QA questions domain. The task is to determine whether a pair of questions are semantically equivalent. Accuracy (ACC) is used as the metric.

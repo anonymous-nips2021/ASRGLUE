@@ -1,13 +1,21 @@
 # ASR-GLUE
 
-ASR-GLUE is constructed on the basis of GLUE, a popular NLU evaluation benchmark consists of diverse NLU tasks.
+ASR-robust General Language Understanding Evaluation (ASR-GLUE) is constructed on the basis of GLUE, a popular NLU evaluation benchmark consists of diverse NLU tasks for the purpose of comprehensively investigate how ASR error affect NLU capability. 
+It contains a new collection of 6 different NLU tasks for evaluating the performance of models under ASR error across 3 different levels of background noise and 6 speakers with various voice characteristics.
+----
+* **SST-2** The Stanford Sentiment Treebank is a single-input understanding task for sentiment classification. The task is to predict the sentiment of a given sentence in movie reviews domain. Accuracy (ACC) of the binary classification (positive or negative) is used as the metric.
+* **STS-B** The Semantic Textual Similarity Benchmark consists of sentence pairs drawn from news headlines, video and image captions, and natural language inference data. The task is to predict sentence similarity scores which ranges from 1 to 5. We evaluate using Pearson and Spearman correlation coefficients.
+* **QQP**   The Quora Question Pairs dataset consists of question pairs in social QA questions domain. The task is to determine whether a pair of questions are semantically equivalent. Accuracy (ACC) is used as the metric.
+* **QNLI**  Question-answering NLI is modified from the Stanford Question Answering dataset. This is a  sentence pair classification task which determines whether the context sentence contains the answer to the question. Accuracy (ACC) is used as the metric.
+* **RTE**   The Recognizing Textual Entailment (RTE) datasets come from a series of annual textual entailment challenges. All datasets are combined and converted to two-class classification: entailment and not entailment. Accuracy (ACC) is used as the metric.
+* **Scitail** SciTail is a recently released challenging textual entailment dataset collected from the science domain. This is a natural language inference task which 
+determines if a natural language hypothesis can be justifiably inferred from a given premise. Accuracy (ACC) is used as the metric.
 
-We select 5 typical NLU tasks from it, namely:
-Sentiment classification (SST-2), Semantic Textual Similarity (STS-B), paraphrase  (QQP QNLI), Recognizing Textual Entailment (RTE) and incorporate with a
-Science NLI task (SciTail), resulting in 6 tasks in total.
 
 ----------
 ##### Download ASR-GLUE
+The text form of the training set and both the audio (~90hours) and the text of the dev and text set are provided in ASR-GLUE.
+
 You can download ASR-GLUE via google onedrive [Link](https://drive.google.com/drive/folders/1slqI6pUiab470vCxQBZemQZN-a_ssv1Q?usp=sharing)
 
 ----
@@ -41,7 +49,8 @@ ASR-GLUE dataset
 | :-------------: | :---------------: | :---------------: | :---------------: |
 |SST-2                   | 67349                  |2772               | 2790 |
 |STS-B                   |5749                    | 3042              | 3222 |                   
-QQP                     |363846                   |1476               |3996  |               
+QQP                     |363846                   |1476               |3996  | 
+QNLI                    |104743                   |2718             |2718|            
 RTE                     |2490                     |2070               |2088  |                   
 SciTail                 |23596                    |2718               |2736  | 
 ----

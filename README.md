@@ -57,5 +57,4 @@ SciTail                 |23596                    |2718               |2736  |
 ----
 
 ### License
-The authors bear all responsibility in case of violation of rights, and confirm that this dataset is
-open-sourced under the MIT license.
+This work is licensed under a Creative Commons “Attribution 4.0 International” license

@@ -62,11 +62,11 @@ SciTail                 |23596                    |2718               |2736  |
 
 1. If you want to test the robustness of your NLU model, please replace the $BERT_BASE with your NLU model in test.sh, then run:
 
-  $ sh test.sh
+    $ sh test.sh
 
 2. If you want to train a new NLU model, please run:
 
-  $ sh train.sh
+    $ sh train.sh
 
 3. You can also run gec.sh for correction-based method, then modify $TEST_FILE in test.sh or run gen.sh for augmentation-based method, 
    then modify $TRAIN_FILE in train.sh. Enjoy it!

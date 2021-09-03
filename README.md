@@ -68,8 +68,8 @@ SciTail                 |23596                    |2718               |2736  |
 
     $ sh train.sh
 
-3. You can also run gec.sh for correction-based method, then modify $TEST_FILE in test.sh or run gen.sh for augmentation-based method, 
-   then modify $TRAIN_FILE in train.sh. Enjoy it!
+3. You can also do ASR correction, e.g., sh gec.sh then modify $TEST_FILE in test.sh with the output of your correction model.
+   Moreover, you can also do data augmentation, e.g., sh gen.sh then modify $TRAIN_FILE in train.sh. Go ahead and enjoy it!
 
 ----
 

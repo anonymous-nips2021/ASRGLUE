@@ -59,21 +59,17 @@ SciTail                 |23596                    |2718               |2736  |
 
 ------
 ### ASR-Robust NLU
+
 1. If you want to test the robustness of your NLU model, please replace the $BERT_BASE with your NLU model in test.sh, then run:
-  sh test.sh
+
+  $ sh test.sh
 
 2. If you want to train a new NLU model, please run:
-  sh train.sh
 
-3. For correction-based methods:
-  cd gector/  
-  python train.py --train_set TRAIN_SET --dev_set DEV_SET --model_dir MODEL_DIR
-  python predict.py --model_path MODEL_PATH --vocab_path VOCAB_PATH --input_file INPUT_FILE --output_file OUTPUT_FILE
+  $ sh train.sh
 
-4. For augmentation-based methods:
-  
-
-
+3. You can also run gec.sh for correction-based method, then modify $TEST_FILE in test.sh or run gen.sh for augmentation-based method, 
+   then modify $TRAIN_FILE in train.sh. Enjoy it!
 
 ----
 

@@ -57,7 +57,6 @@ SciTail                 |23596                    |2718               |2736  |
 ----
 
 
-------
 ### ASR-Robust NLU
 
 1. If you want to test the robustness of your NLU model, please replace the $BERT_BASE with your NLU model in test.sh, then run:

@@ -70,19 +70,19 @@ SciTail                 |23596                    |2718               |2736  |
 
 3. For ASR correction:
    
-   GECToR:
+   GECToR:  sh scripts/gec.sh 
 
-   BART-C:
+   BART-C:  sh scripts/bart-c.sh 
    
    then modify $TEST_FILE in test.sh with the output of your correction model.
    
 4. For data augmentation, 
 
-    CM:
+    CM:  sh scripts/cm.sh 
     
-    GPT-2:
+    GPT-2: sh scripts/gpt2.sh 
     
-    BART-S: sh scripts/gen.sh 
+    BART-S: sh scripts/bart-s.sh 
     
    then modify $TRAIN_FILE in train.sh.
 ----

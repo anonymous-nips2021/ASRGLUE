@@ -76,7 +76,7 @@ SciTail                 |23596                    |2718               |2736  |
    
    then modify $TEST_FILE in test.sh with the output of your correction model.
    
-4. For data augmentation, 
+4. For data augmentation:
 
     CM:  sh scripts/cm.sh 
     

@@ -68,7 +68,7 @@ SciTail                 |23596                    |2718               |2736  |
 
     $ sh scripts/train.sh
 
-3. For ASR correction:
+3. For correction-based methods:
    
    GECToR:  sh scripts/gec.sh 
 
@@ -76,7 +76,7 @@ SciTail                 |23596                    |2718               |2736  |
    
    then modify $TEST_FILE in test.sh with the output of your correction model.
    
-4. For data augmentation:
+4. For augmentation-based methods:
 
     CM:  sh scripts/cm.sh 
     

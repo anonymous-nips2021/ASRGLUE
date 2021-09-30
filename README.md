@@ -57,7 +57,7 @@ QNLI                    |104743                   |2718             |2718|
 RTE                     |2490                     |2070               |2088  |                   
 SciTail                 |23596                    |2718               |2736  | 
 ----
-
+Detailed WER results in ASRGLUE_WER.xlsx 
 
 ### Noise audito data simulation
 Please first download the room impulse response and backgroud noise data via:
@@ -66,6 +66,7 @@ Then you can use the scripts to simulated the nosie:
 ```
 bash scripts/make_rvb_nosie.sh --SNR $i --norvb_datadir=YourCleanspeechDir 
 ```
+You need to install [kaldi](https://github.com/kaldi-asr/kaldi) to use this script
 Note that YourCleanspeechDir is a Dir in kaldi format.
 Which needs to contain four files:
 ```

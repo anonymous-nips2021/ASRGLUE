@@ -64,11 +64,17 @@ Please first download the room impulse response and backgroud noise data via:
 [Link](http://www.openslr.org/resources/28/rirs\_noises.zip)
 Then you can use the scripts to simulated the nosie:
 ```
-bash scripts/make_rvb_nosie.sh --SP ${j} --SNR $i --norvb_datadir=YourCleanspeechDir 
+bash scripts/make_rvb_nosie.sh --SNR $i --norvb_datadir=YourCleanspeechDir 
 ```
 Note that YourCleanspeechDir is a Dir in kaldi format.
-Which needs to contain:
-wav.scp utt2spk spk2utt text file.
+Which needs to contain four files:
+```
+wav.scp  # save the path of your clean wav files: ID PATH 
+utt2spk 
+spk2utt 
+text     # The transcripts: ID Text
+```
+We provide an example in examples/ssb_2
 
 ----
 ### Our kaldi based Online ASR server

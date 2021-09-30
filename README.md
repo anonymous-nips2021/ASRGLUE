@@ -76,6 +76,11 @@ text     # The transcripts: ID Text
 ```
 We provide an example in examples/ssb_2
 
+If you want to simulate with signal samlping noise, please 
+```
+tar -xvf colorednoise.tar
+cp -r colorednoise RIRS_NOISES
+```
 ----
 ### ASR server
 Currently you can use google Speech-to-text API to reproduce our google ASR results:

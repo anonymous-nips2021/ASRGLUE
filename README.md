@@ -68,7 +68,13 @@ Note that YourCleanspeechDir is a Dir in kaldi format.
 Which needs to contain:
 wav.scp utt2spk spk2utt text file.
 
+----
+### Our kaldi based Online ASR server
+```
+Will be provided at the end of October 2021 
+```
 
+----
 ### ASR-Robust NLU
 
 1. If you want to test the robustness of your NLU model, please replace the $BERT_BASE with your NLU model in test.sh, then run:

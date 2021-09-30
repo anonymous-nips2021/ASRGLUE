@@ -67,8 +67,8 @@ Then you can use the scripts to simulated the nosie:
 bash scripts/make_rvb_nosie.sh --SNR $i --norvb_datadir=YourCleanspeechDir 
 ```
 You need to install [kaldi](https://github.com/kaldi-asr/kaldi) to use this script
-Note that YourCleanspeechDir is a Dir in kaldi format.
-Which needs to contain four files:
+
+Note that YourCleanspeechDir is a Dir in kaldi format, which needs to contain four files:
 ```
 wav.scp  # save the path of your clean wav files: ID PATH 
 utt2spk 

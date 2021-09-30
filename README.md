@@ -79,7 +79,7 @@ We provide an example in examples/ssb_2
 ----
 ### ASR server
 Currently you can use google Speech-to-text API to reproduce our google ASR results:
-Note that your need to set up the google API account first to use the script
+Note that your need to set up the google API account first to use the script [link](https://cloud.google.com/speech-to-text/?utm_source=google&utm_medium=cpc&utm_campaign=japac-AU-all-en-dr-bkws-all-super-trial-e-dr-1009882&utm_content=ims_text-ad-none-none-DEV_c-CRE_507092309996-ADGP_Hybrid%20%7C%20BKWS%20-%20EXA%20%7C%20Txt%20~%20AI%20%26%20ML%20~%20Speech-to-Text_Travel%20-%20Speech%20-%20google%20speech%20to%20text-KWID_43700060575389626-kwd-21425535976&userloc_9061630-network_g&utm_term=KW_google%20speech%20to%20text&gclid=CjwKCAjwndCKBhAkEiwAgSDKQdUXC365lVSK1qwk1MbSMrisNXmqCge269p1XsphN41u-GSuuIhtqRoCEr0QAvD_BwE&gclsrc=aw.ds)
 ```
 python recg_google.py wav.scp
 ```

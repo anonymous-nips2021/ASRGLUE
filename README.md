@@ -41,6 +41,8 @@ ASR-GLUE dataset
 |  |  |  ├── hyp.*          # ASR hypothesis cross different speaker and noisy level
 |  |  |  ├── groundtruth    # The ground truth transcription
 |  |  |  ├── wer            # Summary of word-error-rate (wer) 
+|  |  ├── N-best list ASR results
+|  |  |  ├── hyp.*
 
 ```
 

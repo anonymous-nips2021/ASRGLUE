@@ -77,10 +77,15 @@ text     # The transcripts: ID Text
 We provide an example in examples/ssb_2
 
 ----
-### Our kaldi based Online ASR server
+### ASR server
+Currently you can use google Speech-to-text API to reproduce our google ASR results:
+Note that your need to set up the google API account first to use the script
 ```
-Will be provided at the end of October 2021 
+python recg_google.py wav.scp
 ```
+
+We will provided our kaldi based online server  at the end of October 2021
+
 
 ----
 ### ASR-Robust NLU

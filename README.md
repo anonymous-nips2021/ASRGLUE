@@ -57,6 +57,18 @@ SciTail                 |23596                    |2718               |2736  |
 ----
 
 
+### Noise audito data simulation
+Please first download the room impulse response and backgroud noise data via:
+[Link](http://www.openslr.org/resources/28/rirs\_noises.zip)
+Then you can use the scripts to simulated the nosie:
+```
+bash scripts/make_rvb_nosie.sh --SP ${j} --SNR $i --norvb_datadir=YourCleanspeechDir 
+```
+Note that YourCleanspeechDir is a Dir in kaldi format.
+Which needs to contain:
+wav.scp utt2spk spk2utt text file.
+
+
 ### ASR-Robust NLU
 
 1. If you want to test the robustness of your NLU model, please replace the $BERT_BASE with your NLU model in test.sh, then run:
